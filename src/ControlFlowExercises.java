@@ -9,7 +9,7 @@ public class ControlFlowExercises {
 
         do{
             System.out.println(i *= 2);
-        }while (i < 65536);
+        }while (i < 1000000);
 
 
 //        for(int i = 5; i <= 15; i ++){
