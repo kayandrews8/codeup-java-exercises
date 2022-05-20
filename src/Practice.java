@@ -14,11 +14,20 @@ public class Practice {
         return sum;
     }
 
+    public static int squareSum(int[] n){
+        int total = 0;
+        for(int i = 0; i < n.length; i ++){
+            total += (i * i);
+        }
+        return total;
+    }
+
 
 
     public static void main(String[] args) {
+
 //        System.out.println(subtractTen(14));
-        System.out.println(summation(20));
+
     }
 
 }
